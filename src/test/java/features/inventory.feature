@@ -1,4 +1,4 @@
-Feature: Login Cases
+Feature: Inventory Cases
   Background: User open login page
     Given User open "https://www.saucedemo.com/" page
 
