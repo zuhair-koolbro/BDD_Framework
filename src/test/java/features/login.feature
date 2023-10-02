@@ -3,7 +3,7 @@ Feature: Login Cases
     Given User open "https://www.saucedemo.com/" page
 
 
-  Scenario Outline: Verify user can able to login successfully with standard_user account
+  Scenario Outline: Verify user can able to login successfully with valid accounts
     And User click on username field
     When User enter username "<username>"
     And User click on password field
